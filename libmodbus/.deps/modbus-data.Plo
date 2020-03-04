@@ -1,0 +1,230 @@
+modbus-data.lo: modbus-data.c \
+ /home/watson/arm-gcc/libc/usr/include/stdc-predef.h ../config.h \
+ /home/watson/arm-gcc/libc/usr/include/stdlib.h \
+ /home/watson/arm-gcc/libc/usr/include/features.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/cdefs.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/wordsize.h \
+ /home/watson/arm-gcc/libc/usr/include/gnu/stubs.h \
+ /home/watson/arm-gcc/libc/usr/include/gnu/stubs-hard.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stddef.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/waitflags.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/waitstatus.h \
+ /home/watson/arm-gcc/libc/usr/include/endian.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/endian.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/byteswap.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/types.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/typesizes.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/byteswap-16.h \
+ /home/watson/arm-gcc/libc/usr/include/xlocale.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/types.h \
+ /home/watson/arm-gcc/libc/usr/include/time.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/select.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/select.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigset.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/time.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/sysmacros.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/pthreadtypes.h \
+ /home/watson/arm-gcc/libc/usr/include/alloca.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdlib-bsearch.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdlib-float.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stdint.h \
+ /home/watson/arm-gcc/libc/usr/include/stdint.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/wchar.h \
+ /home/watson/arm-gcc/libc/usr/include/string.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/string.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/string2.h \
+ /home/watson/arm-gcc/libc/usr/include/assert.h \
+ /home/watson/arm-gcc/libc/usr/include/arpa/inet.h \
+ /home/watson/arm-gcc/libc/usr/include/netinet/in.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/socket.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/uio.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/uio.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/socket.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/socket_type.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sockaddr.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/socket.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/socket.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/sockios.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/sockios.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/in.h ../config.h modbus.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/param.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/limits.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/syslimits.h \
+ /home/watson/arm-gcc/libc/usr/include/limits.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/posix1_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/local_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/limits.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/posix2_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/xopen_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdio_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/signal.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/signum.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/siginfo.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigaction.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigcontext.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/sigcontext.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigstack.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/ucontext.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigthread.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/param.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/param.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/param.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/param.h \
+ modbus-version.h modbus-tcp.h modbus-rtu.h \
+ /home/watson/arm-gcc/libc/usr/include/byteswap.h
+
+/home/watson/arm-gcc/libc/usr/include/stdc-predef.h:
+
+../config.h:
+
+/home/watson/arm-gcc/libc/usr/include/stdlib.h:
+
+/home/watson/arm-gcc/libc/usr/include/features.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/cdefs.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/wordsize.h:
+
+/home/watson/arm-gcc/libc/usr/include/gnu/stubs.h:
+
+/home/watson/arm-gcc/libc/usr/include/gnu/stubs-hard.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stddef.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/waitflags.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/waitstatus.h:
+
+/home/watson/arm-gcc/libc/usr/include/endian.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/endian.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/byteswap.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/types.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/typesizes.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/byteswap-16.h:
+
+/home/watson/arm-gcc/libc/usr/include/xlocale.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/types.h:
+
+/home/watson/arm-gcc/libc/usr/include/time.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/select.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/select.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigset.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/time.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/sysmacros.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/pthreadtypes.h:
+
+/home/watson/arm-gcc/libc/usr/include/alloca.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdlib-bsearch.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdlib-float.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stdint.h:
+
+/home/watson/arm-gcc/libc/usr/include/stdint.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/wchar.h:
+
+/home/watson/arm-gcc/libc/usr/include/string.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/string.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/string2.h:
+
+/home/watson/arm-gcc/libc/usr/include/assert.h:
+
+/home/watson/arm-gcc/libc/usr/include/arpa/inet.h:
+
+/home/watson/arm-gcc/libc/usr/include/netinet/in.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/socket.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/uio.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/uio.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/socket.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/socket_type.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sockaddr.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/socket.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/socket.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/sockios.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/sockios.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/in.h:
+
+../config.h:
+
+modbus.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/param.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/limits.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/syslimits.h:
+
+/home/watson/arm-gcc/libc/usr/include/limits.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/posix1_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/local_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/limits.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/posix2_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/xopen_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdio_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/signal.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/signum.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/siginfo.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigaction.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigcontext.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/sigcontext.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigstack.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/ucontext.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigthread.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/param.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/param.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/param.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/param.h:
+
+modbus-version.h:
+
+modbus-tcp.h:
+
+modbus-rtu.h:
+
+/home/watson/arm-gcc/libc/usr/include/byteswap.h:

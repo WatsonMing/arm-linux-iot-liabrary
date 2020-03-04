@@ -1,0 +1,330 @@
+modbus-rtu.lo: modbus-rtu.c \
+ /home/watson/arm-gcc/libc/usr/include/stdc-predef.h ../config.h \
+ /home/watson/arm-gcc/libc/usr/include/stdio.h \
+ /home/watson/arm-gcc/libc/usr/include/features.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/cdefs.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/wordsize.h \
+ /home/watson/arm-gcc/libc/usr/include/gnu/stubs.h \
+ /home/watson/arm-gcc/libc/usr/include/gnu/stubs-hard.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stddef.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/types.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/typesizes.h \
+ /home/watson/arm-gcc/libc/usr/include/libio.h \
+ /home/watson/arm-gcc/libc/usr/include/_G_config.h \
+ /home/watson/arm-gcc/libc/usr/include/wchar.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stdarg.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdio_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sys_errlist.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdio.h \
+ /home/watson/arm-gcc/libc/usr/include/stdlib.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/waitflags.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/waitstatus.h \
+ /home/watson/arm-gcc/libc/usr/include/endian.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/endian.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/byteswap.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/byteswap-16.h \
+ /home/watson/arm-gcc/libc/usr/include/xlocale.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/types.h \
+ /home/watson/arm-gcc/libc/usr/include/time.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/select.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/select.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigset.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/time.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/sysmacros.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/pthreadtypes.h \
+ /home/watson/arm-gcc/libc/usr/include/alloca.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdlib-bsearch.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stdlib-float.h \
+ /home/watson/arm-gcc/libc/usr/include/errno.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/errno.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/errno.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/errno.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/errno.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/errno-base.h \
+ /home/watson/arm-gcc/libc/usr/include/fcntl.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/fcntl.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/fcntl-linux.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/uio.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/stat.h \
+ /home/watson/arm-gcc/libc/usr/include/string.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/string.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/string2.h \
+ /home/watson/arm-gcc/libc/usr/include/unistd.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/posix_opt.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/environments.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/confname.h \
+ /home/watson/arm-gcc/libc/usr/include/getopt.h \
+ /home/watson/arm-gcc/libc/usr/include/assert.h modbus-private.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stdint.h \
+ /home/watson/arm-gcc/libc/usr/include/stdint.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/wchar.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/time.h ../config.h modbus.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/param.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/limits.h \
+ /home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/syslimits.h \
+ /home/watson/arm-gcc/libc/usr/include/limits.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/posix1_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/local_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/limits.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/posix2_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/xopen_lim.h \
+ /home/watson/arm-gcc/libc/usr/include/signal.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/signum.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/siginfo.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigaction.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigcontext.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/sigcontext.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigstack.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/ucontext.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/sigthread.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/param.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/param.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/param.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/param.h \
+ modbus-version.h modbus-tcp.h modbus-rtu.h modbus-rtu-private.h \
+ /home/watson/arm-gcc/libc/usr/include/termios.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/termios.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/ttydefaults.h \
+ /home/watson/arm-gcc/libc/usr/include/sys/ioctl.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/ioctls.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/ioctls.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/ioctls.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/ioctl.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/ioctl.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/ioctl.h \
+ /home/watson/arm-gcc/libc/usr/include/bits/ioctl-types.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/serial.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/types.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/types.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/int-ll64.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/bitsperlong.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/bitsperlong.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/posix_types.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/stddef.h \
+ /home/watson/arm-gcc/libc/usr/include/asm/posix_types.h \
+ /home/watson/arm-gcc/libc/usr/include/asm-generic/posix_types.h \
+ /home/watson/arm-gcc/libc/usr/include/linux/tty_flags.h
+
+/home/watson/arm-gcc/libc/usr/include/stdc-predef.h:
+
+../config.h:
+
+/home/watson/arm-gcc/libc/usr/include/stdio.h:
+
+/home/watson/arm-gcc/libc/usr/include/features.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/cdefs.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/wordsize.h:
+
+/home/watson/arm-gcc/libc/usr/include/gnu/stubs.h:
+
+/home/watson/arm-gcc/libc/usr/include/gnu/stubs-hard.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stddef.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/types.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/typesizes.h:
+
+/home/watson/arm-gcc/libc/usr/include/libio.h:
+
+/home/watson/arm-gcc/libc/usr/include/_G_config.h:
+
+/home/watson/arm-gcc/libc/usr/include/wchar.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stdarg.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdio_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sys_errlist.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdio.h:
+
+/home/watson/arm-gcc/libc/usr/include/stdlib.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/waitflags.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/waitstatus.h:
+
+/home/watson/arm-gcc/libc/usr/include/endian.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/endian.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/byteswap.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/byteswap-16.h:
+
+/home/watson/arm-gcc/libc/usr/include/xlocale.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/types.h:
+
+/home/watson/arm-gcc/libc/usr/include/time.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/select.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/select.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigset.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/time.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/sysmacros.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/pthreadtypes.h:
+
+/home/watson/arm-gcc/libc/usr/include/alloca.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdlib-bsearch.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stdlib-float.h:
+
+/home/watson/arm-gcc/libc/usr/include/errno.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/errno.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/errno.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/errno.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/errno.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/errno-base.h:
+
+/home/watson/arm-gcc/libc/usr/include/fcntl.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/fcntl.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/fcntl-linux.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/uio.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/stat.h:
+
+/home/watson/arm-gcc/libc/usr/include/string.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/string.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/string2.h:
+
+/home/watson/arm-gcc/libc/usr/include/unistd.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/posix_opt.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/environments.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/confname.h:
+
+/home/watson/arm-gcc/libc/usr/include/getopt.h:
+
+/home/watson/arm-gcc/libc/usr/include/assert.h:
+
+modbus-private.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include/stdint.h:
+
+/home/watson/arm-gcc/libc/usr/include/stdint.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/wchar.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/time.h:
+
+../config.h:
+
+modbus.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/param.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/limits.h:
+
+/home/watson/arm-gcc/lib/gcc/arm-linux-gnueabihf/4.9.3/include-fixed/syslimits.h:
+
+/home/watson/arm-gcc/libc/usr/include/limits.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/posix1_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/local_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/limits.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/posix2_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/xopen_lim.h:
+
+/home/watson/arm-gcc/libc/usr/include/signal.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/signum.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/siginfo.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigaction.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigcontext.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/sigcontext.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigstack.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/ucontext.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/sigthread.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/param.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/param.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/param.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/param.h:
+
+modbus-version.h:
+
+modbus-tcp.h:
+
+modbus-rtu.h:
+
+modbus-rtu-private.h:
+
+/home/watson/arm-gcc/libc/usr/include/termios.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/termios.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/ttydefaults.h:
+
+/home/watson/arm-gcc/libc/usr/include/sys/ioctl.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/ioctls.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/ioctls.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/ioctls.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/ioctl.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/ioctl.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/ioctl.h:
+
+/home/watson/arm-gcc/libc/usr/include/bits/ioctl-types.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/serial.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/types.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/types.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/int-ll64.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/bitsperlong.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/bitsperlong.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/posix_types.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/stddef.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm/posix_types.h:
+
+/home/watson/arm-gcc/libc/usr/include/asm-generic/posix_types.h:
+
+/home/watson/arm-gcc/libc/usr/include/linux/tty_flags.h:
