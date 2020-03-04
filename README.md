@@ -47,4 +47,4 @@ When you want to create super simple daemon, then it is very easy.`
 
 `If you are willing to donate, thank you very much`
 
-![If you are willing to donate, thank you very much](https://github.com/WatsonMing/Linux-IoT-library-collection/blob/master/myAlipay.png)
+![If you are willing to donate, thank you very much](https://github.com/WatsonMing/arm-linux-iot-liabrary/blob/master/myAlipay.png)
